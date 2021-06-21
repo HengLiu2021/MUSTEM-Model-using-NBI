@@ -20,4 +20,4 @@ The folder of "Samples" under each component file contains the data used for the
 
 The files "Feature_Matrix_fold_1.mat" to "Feature_Matrix_fold_10.mat" contain the original data for the 10-fold cross validation. The pre-shuffled train/test splits were also included. 
 
-The files "Samples_Labels_fold_1.mat" to "Samples_Labels_fold_10.mat" contain the formated data for model development. The data was discretized from the original data in the corresponding fold. Samples with a current condition rating of 3 was not included since the transition probability was known and assumed to be 1.
+The files "Samples_Labels_fold_1.mat" to "Samples_Labels_fold_10.mat" contain the training data for model development. The data was discretized from the original data in the corresponding fold. Samples with a current condition rating of 3 was not included since the transition probability was known and assumed to be 1.

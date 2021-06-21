@@ -1,7 +1,7 @@
 # MUSTEM-Model-using-NBI
 This project utilized the multi-stage exponential Markov (MUSTEM) model for deterioration modeling of highway bridge components (decks,supserstructures, and substructures) using the National Bridge Inventory database (1992-2019).
 
-The MUSTEM model was developped by
+The original MUSTEM model technique was developped by
 
 Tsuda, Y., Kaito, K., Aoki, K., & Kobayashi, K. (2006). Estimating Markovian transition probabilities for bridge deterioration forecasting. Structural Engineering/Earthquake Engineering, JSCE, 23(2), 241s-256s. doi:https://doi.org/10.2208/jsceseee.23.241s
 

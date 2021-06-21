@@ -18,4 +18,4 @@ for fold = 1:10
     error_Bridge_MUSTEM(:,fold) = sum((MUSTEM_Bridge-Data_Bridge).^2,2)/num_bridges_test;
 end
 
-save('error_MUSTEM_deck.mat','error_Bridge_MUSTEM')
+%save('error_MUSTEM_deck.mat','error_Bridge_MUSTEM')

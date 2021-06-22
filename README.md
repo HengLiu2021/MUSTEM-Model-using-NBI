@@ -11,7 +11,7 @@ The model was compiled using MATLAB. To run the code:
 
 2. Go to a component file: Deck, Super, or Sub.
 
-3. Run "A_MUSTEM_quasi_Newton.m" to calibrate the model coefficients. Pre-calculated model coefficients were stored in files from "Beta_quasiNewton_fold_1.mat" to "Beta_quasiNewton_fold_10.mat".
+3. (optional if using pre-calculated model parameters) Run "A_MUSTEM_quasi_Newton.m" to calibrate the model coefficients. Pre-calculated model coefficients were stored in files from "Beta_quasiNewton_fold_1.mat" to "Beta_quasiNewton_fold_10.mat".
 
 4. Run "B_MUSTEM_Evaluation.m" to evlauate the calibrated model on an independent testing dataset. Pre-calculated testing results were stored in files "error_MUSTEM_deck.mat", "error_MUSTEM_super.mat", and "error_MUSTEM_sub.mat". The optimization utilized the quasi-Newton method. 
 
@@ -20,4 +20,4 @@ The folder of "Samples" under each component file contains the data used for the
 
 The files "Feature_Matrix_fold_1.mat" to "Feature_Matrix_fold_10.mat" contain the original data for the 10-fold cross validation. The pre-shuffled train/test splits were also included. 
 
-The files "Samples_Labels_fold_1.mat" to "Samples_Labels_fold_10.mat" contain the training data for model development. The data was discretized from the original data in the corresponding fold. Samples with a current condition rating of 3 was not included since the transition probability was known and assumed to be 1.
+The files "Samples_Labels_fold_1.mat" to "Samples_Labels_fold_10.mat" contain the training data for model development. The data was discretized from the original data in the corresponding fold. Samples with a current condition rating of 3 were not included since the transition probability was known and assumed to be 1.
